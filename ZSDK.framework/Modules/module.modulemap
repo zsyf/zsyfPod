@@ -1,0 +1,6 @@
+framework module ZSDK {
+  umbrella header "ZSDK.h"
+
+  export *
+  module * { export * }
+}
