@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.license      = "MIT"
     spec.author       = "zsyf"
     spec.platform     = :ios
-    spec.source       = { :git => "https://github.com/zsyf/zsyfPod.git", :tag => "#{spec.version}" }
+    spec.source       = { :git => "https://github.com/zsyf/zsyfPod.git", :tag => spec.version }
 
     spec.ios.deployment_target = '9.0'
     spec.requires_arc = true
